@@ -1,0 +1,71 @@
+/* Start Variables */
+:root {
+  --clr-primary-500: #10cab7;
+  --clr-secondary-700: #2c4755;
+
+  --clr-neutral-100: #fff;
+  --clr-neutral-200: #f5f5f5;
+  --clr-neutral-400: #ebeced;
+  --clr-neutral-600: #787878;
+  --clr-neutral-900: #020202;
+
+  --ff-base: "", sans-serif;
+  --ff-accent: "", sans-serif;
+
+  --fw-thin: 100;
+  --fw-extra-light: 200;
+  --fw-light: 300;
+  --fw-regular: 400;
+  --fw-medium: 500;
+  --fw-semi-bold: 600;
+  --fw-bold: 700;
+  --fw-extra-bold: 800;
+  --fw-black: 900;
+
+  --dt-main: 0.5s;
+
+  --pd-main: 60px;
+}
+/* End Variables */
+/* Start Global Rules */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: var(--ff-base);
+  background-color: var(--clr-neutral-100);
+}
+
+.container {
+  padding: 0 15px;
+  margin: 0 auto;
+}
+/* Small */
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+}
+/* Medium */
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
+/* Large */
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+}
+/* End Global Rules */
+/* Start Components */
+
+/* End Components */
