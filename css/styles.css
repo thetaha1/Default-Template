@@ -39,12 +39,13 @@ html {
   scroll-behavior: smooth;
 }
 body {
+  /* ! */
   font-family: var(--ff-base);
-  background-color: var(--clr-neutral-100);
+  background-color: var(--clr-neutral-100, #fff);
 }
 ::selection {
   /* ! */
-  background-color: var(--clr-primary- , );
+  background-color: var(--clr-primary-);
   color: var(--clr-neutral-900, #030303);
 }
 .container {
